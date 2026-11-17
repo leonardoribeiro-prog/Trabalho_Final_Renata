@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com Leonardo Cavazzana Ribeiro.">
+    <title>Contato | Leonardo Ribeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <a class="logo" href="index.html">Leonardo<span>Ribeiro</span></a>
+        <nav class="menu">
+            <a href="index.html">Sobre mim</a>
+            <a href="projetos.html">Projetos</a>
+            <a class="ativo" href="contato.html">Contato</a>
+            <button type="button" id="botao-tema" class="botao-tema">Modo claro</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="secao titulo-pagina">
+            <h1>Contato</h1>
+            <p>Estou aberto a oportunidades na área de tecnologia. Fale comigo por um dos links ou pelo formulário.</p>
+        </section>
+
+        <section class="secao">
+            <h2>Onde me encontrar</h2>
+            <div class="grade">
+                <article class="card card-link">
+                    <h3>LinkedIn</h3>
+                    <p>Minha trajetória e experiências.</p>
+                    <a href="https://www.linkedin.com/in/leonardocavazzana/" target="_blank" rel="noopener">Abrir perfil</a>
+                </article>
+
+                <article class="card card-link">
+                    <h3>GitHub</h3>
+                    <p>Meus códigos e projetos.</p>
+                    <a href="https://github.com/leonardoribeiro-prog" target="_blank" rel="noopener">Abrir perfil</a>
+                </article>
+
+                <article class="card card-link">
+                    <h3>E-mail</h3>
+                    <p>leonardo.ribeiro@edu.unifil.br</p>
+                    <a href="https://mail.google.com/mail/?view=cm&to=leonardo.ribeiro@edu.unifil.br" target="_blank" rel="noopener">Enviar e-mail</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao">
+            <h2>Envie uma mensagem</h2>
+            <form id="formulario-contato" class="formulario" action="#" method="post" novalidate>
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+                </div>
+
+                <button type="submit" class="botao">Enviar mensagem</button>
+                <p id="resposta-formulario" class="resposta"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Leonardo Cavazzana Ribeiro - Portfólio 2026</p>
+        <p class="links-rodape">
+            <a href="https://www.linkedin.com/in/leonardocavazzana/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/leonardoribeiro-prog" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://mail.google.com/mail/?view=cm&to=leonardo.ribeiro@edu.unifil.br" target="_blank" rel="noopener">E-mail</a>
+        </p>
+    </footer>
+
+</body>
+</html>
